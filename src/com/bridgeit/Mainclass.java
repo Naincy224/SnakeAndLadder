@@ -7,7 +7,10 @@ public class Mainclass {
 
 		SnakeAndLadder snakeladder = new SnakeAndLadder();
 		snakeladder.position();
-		
+
+		int diceRoll = snakeladder.diceRoll();
+		System.out.println("Number after rolling dice is : " +diceRoll);
+
 	}
 
 }
