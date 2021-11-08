@@ -10,7 +10,17 @@ public class SnakeAndLadder {
 		
 	}
 	
-
+//uc2
+	public int diceRoll() {
+		
+		int diceRoll = (int)Math.floor ((Math.random() * 10 % 6) + 1);
+		return diceRoll;
+		
+		
+	}
+	
+//uc3
+	
 	
 
 }
